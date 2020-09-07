@@ -23,7 +23,7 @@ $ docker-compose -f docker-compose.local.yml down -v
 
 
 ```sh
-$ docker-compose up --force-recreate -d
+$ docker-compose up --force-recreate -d --build
 ```
 
 
