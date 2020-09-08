@@ -1,9 +1,8 @@
-const {Schema, model} = require("mongoose")
+const { Schema, model } = require("mongoose")
 
 const noteSchema = new Schema({
     title: {
         type: String,
-        required: true,
         unique: true
     },
     content: {
